@@ -21,6 +21,7 @@
 		25C4389D193D7D7400A6274E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25C4387F193D7D7400A6274E /* UIKit.framework */; };
 		25C438A5193D7D7400A6274E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 25C438A3193D7D7400A6274E /* InfoPlist.strings */; };
 		25C438A7193D7D7400A6274E /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C438A6193D7D7400A6274E /* Git_TestTests.m */; };
+		25C438B2193D801F00A6274E /* JGTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C438B1193D801F00A6274E /* JGTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		25C438A2193D7D7400A6274E /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		25C438A4193D7D7400A6274E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		25C438A6193D7D7400A6274E /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		25C438B0193D801F00A6274E /* JGTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGTest.h; sourceTree = "<group>"; };
+		25C438B1193D801F00A6274E /* JGTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		25C4386F193D7D7400A6274E = {
 			isa = PBXGroup;
 			children = (
+				25C438B0193D801F00A6274E /* JGTest.h */,
+				25C438B1193D801F00A6274E /* JGTest.m */,
 				25C43881193D7D7400A6274E /* Git Test */,
 				25C438A0193D7D7400A6274E /* Git TestTests */,
 				25C4387A193D7D7400A6274E /* Frameworks */,
@@ -250,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25C438B2193D801F00A6274E /* JGTest.m in Sources */,
 				25C43888193D7D7400A6274E /* main.m in Sources */,
 				25C43892193D7D7400A6274E /* JGViewController.m in Sources */,
 				25C4388C193D7D7400A6274E /* JGAppDelegate.m in Sources */,
